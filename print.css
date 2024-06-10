@@ -1,0 +1,15 @@
+/**
+  * This is a stylesheet for print formatting
+  * @TODO: Style printing in a nice way regardless of how
+  * the current layout looks based on zoom.
+  **/
+* {
+    overflow: visible !important;
+    margin: 2px !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+}
+
+#main {
+    flex-direction: column-reverse;
+}
